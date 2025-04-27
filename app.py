@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Load Pokemon data
 with open(
-    "/Users/atharv/Desktop/temp-github/pokedex-flask/static/data/PokemonData.json", "r"
+    "static/data/PokemonData.json", "r"
 ) as f:
     pokemon_data = json.load(f)
 
